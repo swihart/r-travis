@@ -37,7 +37,7 @@ R_USE_BIOC_CMDS="source('${BIOC}');"\
 
 Bootstrap() {
     if [[ "Darwin" == "${OS}" ]]; then
-        BootstrapMac
+        BootstrapLinux
     elif [[ "Linux" == "${OS}" ]]; then
         BootstrapLinux
     else
